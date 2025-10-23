@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/auth/authfakes"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/auth/authfakes"
 
 	"github.com/stoatchat/livekit-server/pkg/service"
 )

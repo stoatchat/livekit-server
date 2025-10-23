@@ -41,9 +41,9 @@ import (
 	"github.com/livekit/mediatransportutil/pkg/bucket"
 	"github.com/livekit/mediatransportutil/pkg/nack"
 	"github.com/livekit/mediatransportutil/pkg/twcc"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/utils/mono"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/utils/mono"
 )
 
 const (

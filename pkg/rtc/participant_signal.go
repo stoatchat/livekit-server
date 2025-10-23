@@ -19,9 +19,9 @@ import (
 
 	"github.com/pion/webrtc/v4"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	protosignalling "github.com/stoatchat/livekit-protocol/signalling"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	protosignalling "github.com/livekit/protocol/signalling"
 
 	"github.com/stoatchat/livekit-server/pkg/routing"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"

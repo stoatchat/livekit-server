@@ -15,7 +15,7 @@
 package signalling
 
 import (
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 
 	"google.golang.org/protobuf/proto"
 )

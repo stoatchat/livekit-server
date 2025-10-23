@@ -23,9 +23,9 @@ import (
 	"github.com/frostbyte73/core"
 	"go.uber.org/atomic"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/utils"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"

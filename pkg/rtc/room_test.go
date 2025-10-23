@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/stoatchat/livekit-protocol/auth/authfakes"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/utils"
-	"github.com/stoatchat/livekit-protocol/webhook"
+	"github.com/livekit/protocol/auth/authfakes"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/utils"
+	"github.com/livekit/protocol/webhook"
 
 	"github.com/stoatchat/livekit-server/version"
 

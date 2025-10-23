@@ -18,9 +18,9 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/stoatchat/livekit-server/pkg/utils"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	protoutils "github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	protoutils "github.com/livekit/protocol/utils"
 )
 
 type ConfigurationItem struct {

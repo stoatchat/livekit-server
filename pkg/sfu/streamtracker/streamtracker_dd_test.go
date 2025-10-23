@@ -22,7 +22,7 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
 	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 func createDescriptorDependencyForTargets(maxSpatial, maxTemporal int) *buffer.ExtDependencyDescriptor {

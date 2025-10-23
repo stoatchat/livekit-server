@@ -28,12 +28,12 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/observability/roomobs"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/utils"
-	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/observability/roomobs"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/utils"
+	"github.com/livekit/protocol/utils/guid"
 	"github.com/livekit/psrpc"
 
 	"github.com/stoatchat/livekit-server/pkg/agent"

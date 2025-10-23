@@ -16,7 +16,7 @@ package pacer
 
 import (
 	"github.com/stoatchat/livekit-server/pkg/sfu/bwe"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type PassThrough struct {

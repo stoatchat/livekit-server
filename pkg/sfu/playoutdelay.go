@@ -20,7 +20,7 @@ import (
 
 	pd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/playoutdelay"
 	"github.com/stoatchat/livekit-server/pkg/sfu/rtpstats"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 	"go.uber.org/atomic"
 	"go.uber.org/zap/zapcore"
 )

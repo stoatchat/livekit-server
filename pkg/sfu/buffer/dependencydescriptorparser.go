@@ -25,7 +25,7 @@ import (
 	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
 	"github.com/stoatchat/livekit-server/pkg/sfu/utils"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 const (

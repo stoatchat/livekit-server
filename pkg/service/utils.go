@@ -34,9 +34,9 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/routing/selector"
 	"github.com/stoatchat/livekit-server/pkg/rtc"
 	"github.com/stoatchat/livekit-server/pkg/utils"
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
 )
 
 func handleError(w http.ResponseWriter, r *http.Request, status int, err error, keysAndValues ...interface{}) {

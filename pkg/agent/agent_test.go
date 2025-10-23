@@ -12,11 +12,11 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/agent"
 	"github.com/stoatchat/livekit-server/pkg/agent/testutils"
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/utils/guid"
-	"github.com/stoatchat/livekit-protocol/utils/must"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/utils/guid"
+	"github.com/livekit/protocol/utils/must"
 	"github.com/livekit/psrpc"
 )
 

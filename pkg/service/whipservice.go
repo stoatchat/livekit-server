@@ -31,10 +31,10 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/rtc"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	sutils "github.com/stoatchat/livekit-server/pkg/utils"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/utils/guid"
 	"github.com/livekit/psrpc"
 )
 

@@ -22,9 +22,9 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/telemetry"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/webhook"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/webhook"
 )
 
 type EgressLauncher interface {

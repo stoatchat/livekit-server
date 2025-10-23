@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 func TestIceConfigCache(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 type testDynacastManagerListener struct {

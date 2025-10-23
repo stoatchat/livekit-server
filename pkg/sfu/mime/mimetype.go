@@ -19,7 +19,7 @@ import (
 
 	"github.com/pion/webrtc/v4"
 
-	"github.com/stoatchat/livekit-protocol/observability/roomobs"
+	"github.com/livekit/protocol/observability/roomobs"
 )
 
 const (

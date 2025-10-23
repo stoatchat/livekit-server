@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/dennwc/iters"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/utils"
-	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/utils"
+	"github.com/livekit/protocol/utils/guid"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 

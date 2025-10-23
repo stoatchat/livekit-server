@@ -21,7 +21,7 @@ import (
 
 	"github.com/thoas/go-funk"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 
 	"github.com/stoatchat/livekit-server/pkg/config"
 )

@@ -21,11 +21,11 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/webrtc/v4"
 
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/observability/roomobs"
-	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/observability/roomobs"
+	"github.com/livekit/protocol/utils"
 
 	"github.com/stoatchat/livekit-server/pkg/routing"
 	"github.com/stoatchat/livekit-server/pkg/sfu"

@@ -22,7 +22,7 @@ import (
 	"github.com/pion/webrtc/v4"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/utils"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 const (

@@ -35,10 +35,10 @@ import (
 	"go.uber.org/atomic"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/utils/xtwirp"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/utils/xtwirp"
 
 	"github.com/stoatchat/livekit-server/pkg/config"
 	"github.com/stoatchat/livekit-server/pkg/routing"

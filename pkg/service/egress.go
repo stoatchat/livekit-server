@@ -23,12 +23,12 @@ import (
 
 	"github.com/twitchtv/twirp"
 
-	"github.com/stoatchat/livekit-protocol/egress"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/utils"
-	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/livekit/protocol/egress"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/utils"
+	"github.com/livekit/protocol/utils/guid"
 	"github.com/livekit/psrpc"
 
 	"github.com/stoatchat/livekit-server/pkg/rtc"

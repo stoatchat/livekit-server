@@ -30,7 +30,7 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/rtc"
 	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 
 	"github.com/stoatchat/livekit-server/pkg/config"
 	"github.com/stoatchat/livekit-server/pkg/routing"

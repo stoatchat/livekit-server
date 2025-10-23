@@ -21,7 +21,7 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

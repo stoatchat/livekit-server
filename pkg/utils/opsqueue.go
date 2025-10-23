@@ -19,7 +19,7 @@ import (
 
 	"github.com/gammazero/deque"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type OpsQueueParams struct {

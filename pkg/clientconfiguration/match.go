@@ -23,7 +23,7 @@ import (
 	"github.com/d5/tengo/v2/token"
 	"golang.org/x/mod/semver"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 type Match interface {

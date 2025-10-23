@@ -7,7 +7,7 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/rtc/transport"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 	webrtc "github.com/pion/webrtc/v4"
 )
 

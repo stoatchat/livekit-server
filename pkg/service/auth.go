@@ -22,8 +22,8 @@ import (
 
 	"github.com/twitchtv/twirp"
 
-	"github.com/stoatchat/livekit-protocol/auth"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/auth"
+	"github.com/livekit/protocol/livekit"
 )
 
 const (

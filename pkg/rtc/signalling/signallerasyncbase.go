@@ -17,7 +17,7 @@ package signalling
 import (
 	"sync"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 
 	"github.com/stoatchat/livekit-server/pkg/routing"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"

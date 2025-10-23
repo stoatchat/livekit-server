@@ -21,7 +21,7 @@ import (
 	"github.com/pion/webrtc/v4"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 var (

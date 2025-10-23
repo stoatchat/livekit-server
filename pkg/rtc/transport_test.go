@@ -30,7 +30,7 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/rtc/transport/transportfakes"
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
 	"github.com/stoatchat/livekit-server/pkg/testutils"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 func TestMissingAnswerDuringICERestart(t *testing.T) {

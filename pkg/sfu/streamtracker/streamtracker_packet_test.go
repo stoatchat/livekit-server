@@ -24,7 +24,7 @@ import (
 	"go.uber.org/atomic"
 
 	"github.com/stoatchat/livekit-server/pkg/testutils"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 func newStreamTrackerPacket(samplesRequired uint32, cyclesRequired uint32, cycleDuration time.Duration) *StreamTracker {

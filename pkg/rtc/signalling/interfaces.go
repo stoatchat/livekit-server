@@ -15,7 +15,7 @@
 package signalling
 
 import (
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 
 	"github.com/stoatchat/livekit-server/pkg/routing"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"

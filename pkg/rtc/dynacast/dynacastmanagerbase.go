@@ -19,7 +19,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
 	"github.com/stoatchat/livekit-server/pkg/utils"

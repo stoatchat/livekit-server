@@ -21,9 +21,9 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
 	"github.com/stoatchat/livekit-server/pkg/utils"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/webhook"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/webhook"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

@@ -21,10 +21,10 @@ import (
 	"github.com/twitchtv/twirp"
 	"go.uber.org/atomic"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/utils/hwstats"
-	"github.com/stoatchat/livekit-protocol/webhook"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/utils/hwstats"
+	"github.com/livekit/protocol/webhook"
 )
 
 const (

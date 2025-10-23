@@ -22,7 +22,7 @@ import (
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 func getPacket(sn uint16, ts uint32, payloadSize int) *rtp.Packet {

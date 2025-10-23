@@ -6,8 +6,8 @@ import (
 	"sync"
 
 	"github.com/stoatchat/livekit-server/pkg/service"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/rpc"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/rpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

@@ -15,7 +15,7 @@
 package clientconfiguration
 
 import (
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 type ClientConfigurationManager interface {

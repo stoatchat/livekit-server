@@ -17,7 +17,7 @@ package selector_test
 import (
 	"testing"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 
 	"github.com/stoatchat/livekit-server/pkg/routing/selector"
 )

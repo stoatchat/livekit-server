@@ -15,7 +15,7 @@
 package videolayerselector
 
 import (
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type Null struct {

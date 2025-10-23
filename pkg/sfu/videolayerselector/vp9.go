@@ -18,7 +18,7 @@ import (
 	"github.com/pion/rtp/codecs"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type VP9 struct {

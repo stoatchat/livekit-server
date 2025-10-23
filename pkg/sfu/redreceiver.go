@@ -25,8 +25,8 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
 	"github.com/livekit/mediatransportutil/pkg/bucket"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
 )
 
 const (

@@ -21,7 +21,7 @@ import (
 	"github.com/frostbyte73/core"
 	"github.com/gammazero/deque"
 	"github.com/stoatchat/livekit-server/pkg/sfu/bwe"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 const (

@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/rpc"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/rpc"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

@@ -19,7 +19,7 @@ package utils
 import (
 	"context"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type attemptKey struct{}

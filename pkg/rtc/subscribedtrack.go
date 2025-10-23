@@ -25,10 +25,10 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/telemetry"
 	sutils "github.com/stoatchat/livekit-server/pkg/utils"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/observability/roomobs"
-	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/observability/roomobs"
+	"github.com/livekit/protocol/utils"
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu"

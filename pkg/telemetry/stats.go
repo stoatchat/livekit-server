@@ -16,7 +16,7 @@ package telemetry
 
 import (
 	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 )
 
 type StatsKey struct {

@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/utils"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 func TestFrameNumberWrapper(t *testing.T) {

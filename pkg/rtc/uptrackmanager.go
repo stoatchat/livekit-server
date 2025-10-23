@@ -18,12 +18,12 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
 	"golang.org/x/exp/maps"
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
-	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/utils"
 )
 
 var (

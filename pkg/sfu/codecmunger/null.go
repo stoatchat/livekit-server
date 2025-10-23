@@ -16,7 +16,7 @@ package codecmunger
 
 import (
 	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 type Null struct {

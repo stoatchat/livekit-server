@@ -56,10 +56,10 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/utils"
 	lkinterceptor "github.com/livekit/mediatransportutil/pkg/interceptor"
 	lktwcc "github.com/livekit/mediatransportutil/pkg/twcc"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/logger/pionlogger"
-	lksdp "github.com/stoatchat/livekit-protocol/sdp"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/logger/pionlogger"
+	lksdp "github.com/livekit/protocol/sdp"
 )
 
 const (

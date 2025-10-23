@@ -35,11 +35,11 @@ import (
 	"github.com/stoatchat/livekit-server/pkg/sfu/pacer"
 	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
 	"github.com/livekit/mediatransportutil/pkg/rtcconfig"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	redisLiveKit "github.com/stoatchat/livekit-protocol/redis"
-	"github.com/stoatchat/livekit-protocol/rpc"
-	"github.com/stoatchat/livekit-protocol/webhook"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	redisLiveKit "github.com/livekit/protocol/redis"
+	"github.com/livekit/protocol/rpc"
+	"github.com/livekit/protocol/webhook"
 )
 
 const (

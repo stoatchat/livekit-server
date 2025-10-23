@@ -22,7 +22,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/livekit/protocol/livekit"
 	"github.com/stretchr/testify/require"
 )
 

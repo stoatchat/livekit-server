@@ -19,7 +19,7 @@ import (
 
 	"go.uber.org/zap/zapcore"
 
-	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/livekit/protocol/logger"
 )
 
 // ------------------------------------------------

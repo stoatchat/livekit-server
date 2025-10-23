@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/stoatchat/livekit-server/pkg/sfu/bwe"
-	"github.com/stoatchat/livekit-protocol/logger"
-	"github.com/stoatchat/livekit-protocol/utils/mono"
+	"github.com/livekit/protocol/logger"
+	"github.com/livekit/protocol/utils/mono"
 	"github.com/pion/rtp"
 	"go.uber.org/atomic"
 )

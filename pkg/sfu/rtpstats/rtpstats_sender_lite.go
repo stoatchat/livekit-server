@@ -15,8 +15,8 @@
 package rtpstats
 
 import (
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/utils/mono"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/utils/mono"
 	"go.uber.org/zap/zapcore"
 )
 

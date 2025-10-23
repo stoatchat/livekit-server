@@ -25,10 +25,10 @@ import (
 
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
-	"github.com/stoatchat/livekit-protocol/livekit"
-	"github.com/stoatchat/livekit-protocol/logger"
-	lksdp "github.com/stoatchat/livekit-protocol/sdp"
-	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
+	lksdp "github.com/livekit/protocol/sdp"
+	"github.com/livekit/protocol/utils"
 )
 
 func (p *ParticipantImpl) populateSdpCid(parsedOffer *sdp.SessionDescription) ([]*sdp.MediaDescription, []*sdp.MediaDescription) {
