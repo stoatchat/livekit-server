@@ -22,6 +22,11 @@ on:
       - master # publish to 'master' tag
     tags:
       - 'v*.*.*' # publish on version tags, updates 'latest' tag
+
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   docker:
     runs-on: ubuntu-latest
