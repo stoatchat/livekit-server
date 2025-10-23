@@ -17,13 +17,13 @@ package signalling
 import (
 	"fmt"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils"
 	"github.com/livekit/psrpc"
 
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 
 	"google.golang.org/protobuf/proto"
 )

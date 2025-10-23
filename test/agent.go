@@ -24,7 +24,7 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 type agentClient struct {

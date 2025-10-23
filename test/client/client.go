@@ -37,16 +37,16 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/livekit/mediatransportutil/pkg/rtcconfig"
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/signalling"
+	"github.com/stoatchat/livekit-protocol/auth"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/signalling"
 
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/livekit-server/pkg/rtc/transport/transportfakes"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/rtc"
+	"github.com/stoatchat/livekit-server/pkg/rtc/transport/transportfakes"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
 )
 
 type SignalRequestHandler func(msg *livekit.SignalRequest) error

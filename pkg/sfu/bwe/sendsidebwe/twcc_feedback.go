@@ -18,7 +18,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/logger"
 	"github.com/pion/rtcp"
 	"go.uber.org/zap/zapcore"
 )

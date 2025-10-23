@@ -18,8 +18,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils"
 	"go.uber.org/zap/zapcore"
 )
 

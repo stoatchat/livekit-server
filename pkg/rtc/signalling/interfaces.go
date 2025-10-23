@@ -15,10 +15,10 @@
 package signalling
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 
 	"google.golang.org/protobuf/proto"
 )

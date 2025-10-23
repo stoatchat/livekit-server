@@ -17,7 +17,7 @@ package streamtracker
 import (
 	"time"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/logger"
 )
 
 // --------------------------------------------

@@ -19,10 +19,10 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/utils"
 )
 
 type dynacastManagerBaseParams struct {

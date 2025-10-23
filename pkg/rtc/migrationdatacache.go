@@ -3,7 +3,7 @@ package rtc
 import (
 	"time"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 type MigrationDataCacheState int

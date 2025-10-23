@@ -19,11 +19,11 @@ import (
 
 	"github.com/bep/debounce"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
 )
 
 var _ DynacastManager = (*dynacastManagerVideo)(nil)

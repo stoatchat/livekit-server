@@ -26,8 +26,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/livekit-server/pkg/testutils"
-	"github.com/livekit/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-server/pkg/testutils"
+	"github.com/stoatchat/livekit-server/pkg/utils"
 )
 
 func TestForEach(t *testing.T) {

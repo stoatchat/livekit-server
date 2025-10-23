@@ -4,10 +4,10 @@ package transportfakes
 import (
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/rtc/transport"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu/streamallocator"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/rtc/transport"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
+	"github.com/stoatchat/livekit-protocol/livekit"
 	webrtc "github.com/pion/webrtc/v4"
 )
 

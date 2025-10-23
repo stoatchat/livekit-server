@@ -19,15 +19,15 @@ import (
 	"errors"
 	"time"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/guid"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/stoatchat/livekit-protocol/utils/guid"
 	"github.com/livekit/psrpc"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/routing/selector"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/routing/selector"
 )
 
 type StandardRoomAllocator struct {

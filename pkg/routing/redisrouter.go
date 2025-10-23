@@ -25,11 +25,11 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/rpc"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/rpc"
 
-	"github.com/livekit/livekit-server/pkg/routing/selector"
+	"github.com/stoatchat/livekit-server/pkg/routing/selector"
 )
 
 const (

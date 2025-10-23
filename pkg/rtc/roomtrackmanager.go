@@ -19,9 +19,9 @@ package rtc
 import (
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/utils"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-protocol/livekit"
 	"golang.org/x/exp/slices"
 )
 

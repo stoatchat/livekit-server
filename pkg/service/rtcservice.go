@@ -35,16 +35,16 @@ import (
 	"golang.org/x/exp/maps"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 	"github.com/livekit/psrpc"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	"github.com/livekit/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/rtc"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
+	"github.com/stoatchat/livekit-server/pkg/utils"
 )
 
 type RTCService struct {

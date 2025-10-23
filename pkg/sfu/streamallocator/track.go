@@ -15,11 +15,11 @@
 package streamallocator
 
 import (
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
 )
 
 type Track struct {

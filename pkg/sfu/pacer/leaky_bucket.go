@@ -20,8 +20,8 @@ import (
 
 	"github.com/frostbyte73/core"
 	"github.com/gammazero/deque"
-	"github.com/livekit/livekit-server/pkg/sfu/bwe"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-server/pkg/sfu/bwe"
+	"github.com/stoatchat/livekit-protocol/logger"
 )
 
 const (

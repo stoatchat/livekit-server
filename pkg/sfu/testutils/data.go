@@ -20,7 +20,7 @@ import (
 	"github.com/pion/rtp"
 	"github.com/pion/webrtc/v4"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
 )
 
 // -----------------------------------------------------------

@@ -24,12 +24,12 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/ingress"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/guid"
+	"github.com/stoatchat/livekit-protocol/ingress"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/stoatchat/livekit-protocol/utils/guid"
 
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/stoatchat/livekit-server/pkg/service"
 )
 
 func redisStoreDocker(t testing.TB) *service.RedisStore {

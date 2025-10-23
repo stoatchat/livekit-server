@@ -27,17 +27,17 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/guid"
-	"github.com/livekit/protocol/webhook"
+	"github.com/stoatchat/livekit-protocol/auth"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/stoatchat/livekit-protocol/webhook"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/service"
-	"github.com/livekit/livekit-server/pkg/testutils"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/service"
+	"github.com/stoatchat/livekit-server/pkg/testutils"
 )
 
 func TestWebhooks(t *testing.T) {

@@ -21,7 +21,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 func TestDataStats(t *testing.T) {

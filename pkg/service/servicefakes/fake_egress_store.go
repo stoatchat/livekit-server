@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/service"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/service"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 type FakeEgressStore struct {

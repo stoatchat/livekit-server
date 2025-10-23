@@ -20,11 +20,11 @@ import (
 	"github.com/pion/webrtc/v4"
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/testutils"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/testutils"
 )
 
 func disable(f *Forwarder) {

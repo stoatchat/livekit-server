@@ -17,7 +17,7 @@ package routing
 import (
 	"sync"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -26,10 +26,10 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	"github.com/livekit/livekit-server/pkg/utils"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
+	"github.com/stoatchat/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 type twirpRequestFields struct {

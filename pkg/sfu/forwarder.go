@@ -27,19 +27,19 @@ import (
 	"go.uber.org/zap/zapcore"
 
 	"github.com/livekit/mediatransportutil"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/mono"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/stoatchat/livekit-protocol/utils/mono"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/codecmunger"
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	dd "github.com/livekit/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
-	"github.com/livekit/livekit-server/pkg/sfu/rtpstats"
-	sfuutils "github.com/livekit/livekit-server/pkg/sfu/utils"
-	"github.com/livekit/livekit-server/pkg/sfu/videolayerselector"
-	"github.com/livekit/livekit-server/pkg/sfu/videolayerselector/temporallayerselector"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/codecmunger"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
+	"github.com/stoatchat/livekit-server/pkg/sfu/rtpstats"
+	sfuutils "github.com/stoatchat/livekit-server/pkg/sfu/utils"
+	"github.com/stoatchat/livekit-server/pkg/sfu/videolayerselector"
+	"github.com/stoatchat/livekit-server/pkg/sfu/videolayerselector/temporallayerselector"
 )
 
 const (

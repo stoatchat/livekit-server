@@ -21,9 +21,9 @@ import (
 	"github.com/pion/rtp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	dd "github.com/livekit/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
+	"github.com/stoatchat/livekit-protocol/logger"
 )
 
 func TestDecodeTarget(t *testing.T) {

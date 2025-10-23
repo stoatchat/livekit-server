@@ -25,15 +25,15 @@ import (
 	"github.com/pion/webrtc/v4"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/bwe"
-	"github.com/livekit/livekit-server/pkg/sfu/ccutils"
-	"github.com/livekit/livekit-server/pkg/sfu/pacer"
-	"github.com/livekit/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-server/pkg/sfu"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/bwe"
+	"github.com/stoatchat/livekit-server/pkg/sfu/ccutils"
+	"github.com/stoatchat/livekit-server/pkg/sfu/pacer"
+	"github.com/stoatchat/livekit-server/pkg/utils"
 )
 
 const (

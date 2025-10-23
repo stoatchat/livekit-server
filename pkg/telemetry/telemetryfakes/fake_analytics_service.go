@@ -5,9 +5,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/observability/roomobs"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/observability/roomobs"
 )
 
 type FakeAnalyticsService struct {

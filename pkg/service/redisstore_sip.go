@@ -17,7 +17,7 @@ package service
 import (
 	"context"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 const (

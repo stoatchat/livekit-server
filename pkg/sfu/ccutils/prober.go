@@ -129,8 +129,8 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/mono"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils/mono"
 )
 
 type ProberListener interface {

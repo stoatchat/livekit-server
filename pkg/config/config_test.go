@@ -20,7 +20,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/urfave/cli/v3"
 
-	"github.com/livekit/livekit-server/pkg/config/configtest"
+	"github.com/stoatchat/livekit-server/pkg/config/configtest"
 )
 
 func TestConfig_UnmarshalKeys(t *testing.T) {

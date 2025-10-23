@@ -5,7 +5,7 @@ import (
 
 	"github.com/jellydator/ttlcache/v3"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 const (

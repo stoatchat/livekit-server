@@ -32,16 +32,16 @@ import (
 	"github.com/twitchtv/twirp"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/auth"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/livekit-server/pkg/sfu/datachannel"
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/livekit-server/pkg/testutils"
-	testclient "github.com/livekit/livekit-server/test/client"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/rtc"
+	"github.com/stoatchat/livekit-server/pkg/sfu/datachannel"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/testutils"
+	testclient "github.com/stoatchat/livekit-server/test/client"
 )
 
 const (

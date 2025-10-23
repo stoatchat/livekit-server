@@ -17,12 +17,12 @@ package service_test
 import (
 	"context"
 	"github.com/dennwc/iters"
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/stoatchat/livekit-server/pkg/service"
 	"github.com/livekit/psrpc"
 	"slices"
 	"testing"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 	"github.com/stretchr/testify/require"
 )
 

@@ -15,7 +15,7 @@
 package buffer
 
 import (
-	dd "github.com/livekit/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
+	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
 )
 
 type FrameEntity struct {

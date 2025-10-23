@@ -19,9 +19,9 @@ import (
 
 	"github.com/pion/webrtc/v4"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu/streamallocator"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

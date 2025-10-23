@@ -26,14 +26,14 @@ import (
 	"github.com/pion/turn/v4"
 	"github.com/pkg/errors"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/logger/pionlogger"
+	"github.com/stoatchat/livekit-protocol/auth"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/logger/pionlogger"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
 )
 
 const (

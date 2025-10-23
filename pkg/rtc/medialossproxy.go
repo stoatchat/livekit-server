@@ -20,10 +20,10 @@ import (
 
 	"github.com/pion/rtcp"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu"
+	"github.com/stoatchat/livekit-server/pkg/sfu"
 )
 
 const (

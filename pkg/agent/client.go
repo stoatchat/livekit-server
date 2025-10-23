@@ -23,11 +23,11 @@ import (
 	"github.com/gammazero/workerpool"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	serverutils "github.com/livekit/livekit-server/pkg/utils"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/rpc"
-	"github.com/livekit/protocol/utils"
+	serverutils "github.com/stoatchat/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/rpc"
+	"github.com/stoatchat/livekit-protocol/utils"
 	"github.com/livekit/psrpc"
 )
 

@@ -17,8 +17,8 @@
 package utils
 
 import (
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/utils"
 )
 
 func ClientInfoWithoutAddress(c *livekit.ClientInfo) *livekit.ClientInfo {

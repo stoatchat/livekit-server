@@ -18,7 +18,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-protocol/logger"
 	"go.uber.org/zap/zapcore"
 )
 

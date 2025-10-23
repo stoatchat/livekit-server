@@ -20,9 +20,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/testutils"
+	"github.com/stoatchat/livekit-server/pkg/testutils"
 )
 
 func TestMultiNodeRoomList(t *testing.T) {

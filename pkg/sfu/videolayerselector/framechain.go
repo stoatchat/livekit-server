@@ -15,8 +15,8 @@
 package videolayerselector
 
 import (
-	dd "github.com/livekit/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
-	"github.com/livekit/protocol/logger"
+	dd "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
+	"github.com/stoatchat/livekit-protocol/logger"
 )
 
 type FrameChain struct {

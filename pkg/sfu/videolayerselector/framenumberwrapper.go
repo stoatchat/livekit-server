@@ -14,7 +14,7 @@
 
 package videolayerselector
 
-import "github.com/livekit/protocol/logger"
+import "github.com/stoatchat/livekit-protocol/logger"
 
 type FrameNumberWrapper struct {
 	offset uint64

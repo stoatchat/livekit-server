@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 func Test_OnParticipantJoin_EventIsSent(t *testing.T) {

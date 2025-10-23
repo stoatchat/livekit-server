@@ -20,13 +20,13 @@ import (
 
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	"github.com/livekit/protocol/egress"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/utils/guid"
-	"github.com/livekit/protocol/webhook"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
+	"github.com/stoatchat/livekit-protocol/egress"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/stoatchat/livekit-protocol/webhook"
 )
 
 func (t *telemetryService) NotifyEvent(ctx context.Context, event *livekit.WebhookEvent, opts ...webhook.NotifyOption) {
@@ -384,10 +384,22 @@ func (t *telemetryService) TrackUnpublished(
 func (t *telemetryService) TrackMuted(
 	ctx context.Context,
 	participantID livekit.ParticipantID,
+	identity livekit.ParticipantIdentity,
 	track *livekit.TrackInfo,
 ) {
 	t.enqueue(func() {
 		room := t.getRoomDetails(participantID)
+		participant := &livekit.ParticipantInfo{
+			Sid:      string(participantID),
+			Identity: string(identity),
+		}
+		t.NotifyEvent(ctx, &livekit.WebhookEvent{
+			Event:       webhook.EventTrackMuted,
+			Room:        room,
+			Participant: participant,
+			Track:       track,
+		})
+
 		t.SendEvent(ctx, newTrackEvent(livekit.AnalyticsEventType_TRACK_MUTED, room, participantID, track))
 	})
 }
@@ -395,10 +407,22 @@ func (t *telemetryService) TrackMuted(
 func (t *telemetryService) TrackUnmuted(
 	ctx context.Context,
 	participantID livekit.ParticipantID,
+	identity livekit.ParticipantIdentity,
 	track *livekit.TrackInfo,
 ) {
 	t.enqueue(func() {
 		room := t.getRoomDetails(participantID)
+		participant := &livekit.ParticipantInfo{
+			Sid:      string(participantID),
+			Identity: string(identity),
+		}
+		t.NotifyEvent(ctx, &livekit.WebhookEvent{
+			Event:       webhook.EventTrackMuted,
+			Room:        room,
+			Participant: participant,
+			Track:       track,
+		})
+
 		t.SendEvent(ctx, newTrackEvent(livekit.AnalyticsEventType_TRACK_UNMUTED, room, participantID, track))
 	})
 }

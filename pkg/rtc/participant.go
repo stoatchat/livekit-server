@@ -37,34 +37,34 @@ import (
 	"google.golang.org/protobuf/proto"
 
 	"github.com/livekit/mediatransportutil/pkg/twcc"
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/observability"
-	"github.com/livekit/protocol/observability/roomobs"
-	protosdp "github.com/livekit/protocol/sdp"
-	protosignalling "github.com/livekit/protocol/signalling"
-	"github.com/livekit/protocol/utils"
-	"github.com/livekit/protocol/utils/guid"
-	"github.com/livekit/protocol/utils/pointer"
+	"github.com/stoatchat/livekit-protocol/auth"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/observability"
+	"github.com/stoatchat/livekit-protocol/observability/roomobs"
+	protosdp "github.com/stoatchat/livekit-protocol/sdp"
+	protosignalling "github.com/stoatchat/livekit-protocol/signalling"
+	"github.com/stoatchat/livekit-protocol/utils"
+	"github.com/stoatchat/livekit-protocol/utils/guid"
+	"github.com/stoatchat/livekit-protocol/utils/pointer"
 	"github.com/livekit/psrpc"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/metric"
-	"github.com/livekit/livekit-server/pkg/routing"
-	"github.com/livekit/livekit-server/pkg/rtc/signalling"
-	"github.com/livekit/livekit-server/pkg/rtc/supervisor"
-	"github.com/livekit/livekit-server/pkg/rtc/transport"
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu"
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	"github.com/livekit/livekit-server/pkg/sfu/connectionquality"
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/livekit-server/pkg/sfu/pacer"
-	"github.com/livekit/livekit-server/pkg/sfu/streamallocator"
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	sutils "github.com/livekit/livekit-server/pkg/utils"
+	"github.com/stoatchat/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/metric"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/rtc/signalling"
+	"github.com/stoatchat/livekit-server/pkg/rtc/supervisor"
+	"github.com/stoatchat/livekit-server/pkg/rtc/transport"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
+	"github.com/stoatchat/livekit-server/pkg/sfu"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/connectionquality"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-server/pkg/sfu/pacer"
+	"github.com/stoatchat/livekit-server/pkg/sfu/streamallocator"
+	"github.com/stoatchat/livekit-server/pkg/telemetry"
+	"github.com/stoatchat/livekit-server/pkg/telemetry/prometheus"
+	sutils "github.com/stoatchat/livekit-server/pkg/utils"
 )
 
 var _ types.LocalParticipant = (*ParticipantImpl)(nil)
@@ -3171,9 +3171,9 @@ func (p *ParticipantImpl) setTrackMuted(mute *livekit.MuteTrackRequest, fromAdmi
 
 	if trackInfo != nil && changed {
 		if mute.Muted {
-			p.params.Telemetry.TrackMuted(context.Background(), p.ID(), trackInfo)
+			p.params.Telemetry.TrackMuted(context.Background(), p.ID(), p.Identity(), trackInfo)
 		} else {
-			p.params.Telemetry.TrackUnmuted(context.Background(), p.ID(), trackInfo)
+			p.params.Telemetry.TrackUnmuted(context.Background(), p.ID(), p.Identity(), trackInfo)
 		}
 	}
 

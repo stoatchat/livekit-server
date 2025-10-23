@@ -17,7 +17,7 @@ package streamallocator
 import (
 	"fmt"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 // ------------------------------------------------

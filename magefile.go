@@ -27,7 +27,7 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	"github.com/livekit/livekit-server/version"
+	"github.com/stoatchat/livekit-server/version"
 	"github.com/livekit/mageutil"
 	_ "github.com/livekit/psrpc"
 )

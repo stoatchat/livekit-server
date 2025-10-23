@@ -19,9 +19,9 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
-	dede "github.com/livekit/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
-	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-server/pkg/sfu/buffer"
+	dede "github.com/stoatchat/livekit-server/pkg/sfu/rtpextension/dependencydescriptor"
+	"github.com/stoatchat/livekit-protocol/logger"
 )
 
 const (

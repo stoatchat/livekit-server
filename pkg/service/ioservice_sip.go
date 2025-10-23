@@ -22,10 +22,10 @@ import (
 	"github.com/dennwc/iters"
 	"github.com/twitchtv/twirp"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/rpc"
-	"github.com/livekit/protocol/sip"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/logger"
+	"github.com/stoatchat/livekit-protocol/rpc"
+	"github.com/stoatchat/livekit-protocol/sip"
 )
 
 // matchSIPTrunk finds a SIP Trunk definition matching the request.

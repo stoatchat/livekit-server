@@ -18,7 +18,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 )
 
 type ClientInfo struct {

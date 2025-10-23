@@ -17,9 +17,9 @@ package selector
 import (
 	"math"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/config"
+	"github.com/stoatchat/livekit-server/pkg/config"
 )
 
 // RegionAwareSelector prefers available nodes that are closest to the region of the current instance

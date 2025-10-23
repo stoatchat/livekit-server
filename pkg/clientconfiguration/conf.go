@@ -15,9 +15,9 @@
 package clientconfiguration
 
 import (
-	"github.com/livekit/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils/must"
+	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
+	"github.com/stoatchat/livekit-protocol/livekit"
+	"github.com/stoatchat/livekit-protocol/utils/must"
 )
 
 // StaticConfigurations list specific device-side limitations that should be disabled at a global level

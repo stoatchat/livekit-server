@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"github.com/livekit/livekit-server/pkg/sfu/datachannel"
+	"github.com/stoatchat/livekit-server/pkg/sfu/datachannel"
 )
 
 type DataChannelReader struct {
