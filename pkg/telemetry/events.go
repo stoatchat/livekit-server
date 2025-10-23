@@ -417,7 +417,7 @@ func (t *telemetryService) TrackUnmuted(
 			Identity: string(identity),
 		}
 		t.NotifyEvent(ctx, &livekit.WebhookEvent{
-			Event:       webhook.EventTrackMuted,
+			Event:       webhook.EventTrackUnmuted,
 			Room:        room,
 			Participant: participant,
 			Track:       track,
