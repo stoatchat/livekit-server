@@ -5,10 +5,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/stoatchat/livekit-server/pkg/routing"
-	"github.com/stoatchat/livekit-server/pkg/service"
 	"github.com/livekit/protocol/livekit"
 	"github.com/livekit/protocol/logger"
+	"github.com/stoatchat/livekit-server/pkg/routing"
+	"github.com/stoatchat/livekit-server/pkg/service"
 )
 
 type FakeSessionHandler struct {

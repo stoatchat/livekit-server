@@ -87,6 +87,7 @@ func (t *telemetryService) ParticipantJoined(
 			ctx,
 			livekit.RoomID(room.Sid),
 			livekit.RoomName(room.Name),
+			room.Metadata,
 			livekit.ParticipantID(participant.Sid),
 			livekit.ParticipantIdentity(participant.Identity),
 			guard,
@@ -127,6 +128,7 @@ func (t *telemetryService) ParticipantActive(
 			ctx,
 			livekit.RoomID(room.Sid),
 			livekit.RoomName(room.Name),
+			room.Metadata,
 			livekit.ParticipantID(participant.Sid),
 			livekit.ParticipantIdentity(participant.Identity),
 			guard,
@@ -164,6 +166,7 @@ func (t *telemetryService) ParticipantResumed(
 			ctx,
 			livekit.RoomID(room.Sid),
 			livekit.RoomName(room.Name),
+			room.Metadata,
 			livekit.ParticipantID(participant.Sid),
 			livekit.ParticipantIdentity(participant.Identity),
 			nil,
@@ -572,13 +575,14 @@ func (t *telemetryService) Webhook(ctx context.Context, webhookInfo *livekit.Web
 	})
 }
 
-// returns a livekit.Room with only name and sid filled out
+// returns a livekit.Room with only name, sid and metadata filled out
 // returns nil if room is not found
 func (t *telemetryService) getRoomDetails(participantID livekit.ParticipantID) *livekit.Room {
 	if worker, ok := t.getWorker(participantID); ok {
 		return &livekit.Room{
 			Sid:  string(worker.roomID),
 			Name: string(worker.roomName),
+			Metadata: worker.roomMetadata,
 		}
 	}
 

@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/stoatchat/livekit-server/pkg/service"
 	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/service"
 )
 
 type FakeObjectStore struct {

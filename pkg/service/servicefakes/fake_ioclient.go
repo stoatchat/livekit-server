@@ -5,9 +5,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/stoatchat/livekit-server/pkg/service"
 	"github.com/livekit/protocol/livekit"
 	"github.com/livekit/protocol/rpc"
+	"github.com/stoatchat/livekit-server/pkg/service"
 	"google.golang.org/protobuf/types/known/emptypb"
 )
 

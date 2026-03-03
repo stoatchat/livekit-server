@@ -4,8 +4,8 @@ package typesfakes
 import (
 	"sync"
 
-	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/livekit/protocol/livekit"
+	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 )
 
 type FakeRoom struct {

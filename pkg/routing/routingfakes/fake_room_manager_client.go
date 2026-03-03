@@ -5,9 +5,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/stoatchat/livekit-server/pkg/routing"
 	"github.com/livekit/protocol/livekit"
 	"github.com/livekit/psrpc"
+	"github.com/stoatchat/livekit-server/pkg/routing"
 )
 
 type FakeRoomManagerClient struct {

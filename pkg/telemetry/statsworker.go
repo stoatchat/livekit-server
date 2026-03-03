@@ -59,6 +59,7 @@ type StatsWorker struct {
 	t                   TelemetryService
 	roomID              livekit.RoomID
 	roomName            livekit.RoomName
+	roomMetadata        string
 	participantID       livekit.ParticipantID
 	participantIdentity livekit.ParticipantIdentity
 	isConnected         bool
@@ -75,6 +76,7 @@ func newStatsWorker(
 	t TelemetryService,
 	roomID livekit.RoomID,
 	roomName livekit.RoomName,
+	roomMetadata string,
 	participantID livekit.ParticipantID,
 	identity livekit.ParticipantIdentity,
 	guard *ReferenceGuard,
@@ -84,6 +86,7 @@ func newStatsWorker(
 		t:                   t,
 		roomID:              roomID,
 		roomName:            roomName,
+		roomMetadata: 		 roomMetadata,
 		participantID:       participantID,
 		participantIdentity: identity,
 		outgoingPerTrack:    make(map[livekit.TrackID][]*livekit.AnalyticsStat),

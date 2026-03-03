@@ -4,11 +4,11 @@ package typesfakes
 import (
 	"sync"
 
+	"github.com/livekit/protocol/livekit"
+	"github.com/livekit/protocol/logger"
 	"github.com/stoatchat/livekit-server/pkg/rtc/types"
 	"github.com/stoatchat/livekit-server/pkg/sfu"
 	"github.com/stoatchat/livekit-server/pkg/sfu/mime"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
 )
 
 type FakeLocalMediaTrack struct {

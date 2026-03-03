@@ -292,7 +292,7 @@ func NewRoom(
 		r.protoRoom.CreationTime = now.Unix()
 		r.protoRoom.CreationTimeMs = now.UnixMilli()
 	}
-	r.protoProxy = utils.NewProtoProxy(roomUpdateInterval, r.updateProto)
+	r.protoProxy = utils.NewProtoProxy(roomUpdateInterval, r.UpdateProto)
 
 	r.createAgentDispatchesFromRoomAgent()
 
@@ -1450,7 +1450,7 @@ func (r *Room) sendSpeakerChanges(speakers []*livekit.SpeakerInfo) {
 	}
 }
 
-func (r *Room) updateProto() *livekit.Room {
+func (r *Room) UpdateProto() *livekit.Room {
 	r.lock.RLock()
 	room := utils.CloneProto(r.protoRoom)
 	r.lock.RUnlock()

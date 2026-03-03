@@ -9,7 +9,7 @@ import (
 func TestStatsWorker(t *testing.T) {
 	t.Run("reference counted close works", func(t *testing.T) {
 		var g0, g1 ReferenceGuard
-		w := newStatsWorker(t.Context(), nil, "", "", "", "", &g0)
+		w := newStatsWorker(t.Context(), nil, "", "", "", "", "", &g0)
 		require.False(t, w.Closed(&g1))
 		require.False(t, w.Close(&g0))
 		require.False(t, w.Closed(&g1))
