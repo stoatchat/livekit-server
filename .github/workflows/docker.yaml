@@ -21,7 +21,7 @@ on:
     branches:
       - master # publish to 'master' tag
     tags:
-      - 'v*.*.*' # publish on version tags, updates 'latest' tag
+      - "v*.*.*" # publish on version tags, updates 'latest' tag
 
 permissions:
   contents: read
@@ -38,7 +38,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            ghcr.io/stoatchat/livekit-server
+            ghcr.io/${{ github.repository }}
           # generate Docker tags based on the following events/attributes
           tags: |
             type=ref,event=branch
@@ -58,6 +58,9 @@ jobs:
         with:
           version: latest
           args: generate
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
