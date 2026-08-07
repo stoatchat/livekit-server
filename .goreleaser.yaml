@@ -42,8 +42,8 @@ archives:
       - LICENSE
 release:
   github:
-    owner: livekit
-    name: livekit
+    owner: stoatchat
+    name: livekit-server
   draft: true
   prerelease: auto
 changelog:
